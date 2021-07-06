@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tarayıcının sayfayı bir miktar responsive olmasını sağlıyor.-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Kişisel Gelişim">
+    <meta name="author" content="Hatice Betül Aydemir">
+    <meta name="keywords" content="Kişisel, Gelişim, motivasyon, Yaşam">
+
+    <link rel="stylesheet" title="text/css" href="reset.css">
+    <!--Default olarak atanan özellikleri engellemek için-->
+    <link rel="stylesheet" title="text/css" href="main.css">
+    <title>Dinle</title>
+</head>
+<!--sayfa genel style-->
+<style type="text/css">
+#dinle1 {
+    background: linear-gradient(
+        rgba(0,0,0,.3),
+        rgba(0,0,0,.3)
+        ),
+    url('imgs/listenK.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+}
+#dinle1 p{
+    color: #fff;
+    font-size: 22.5px;
+}
+#dinle1 h1{
+    color: #fff;
+
+}
+.col2 h3{
+    color: honeydew;
+}
+#icerik{
+  background-color: #434343;
+}
+
+  /*icerik*/
+  .icerikBody .containerFluid {
+    display: flex;
+    width: 100%;
+  }
+  .icerikM{
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .icerikMImg{
+    display: block;/*yükseklik ve genişlik verilebilsin*/
+    width: 100%;
+    height:250px;
+    opacity: .9;
+    filter: blur(1px);
+  }
+  .icerikM:hover .icerikMtn{
+    color: #fff;
+    font-size: 20px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .icerikTitle{
+    color: #fff;
+    font-size: 20px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .icerikMtn{
+    color: #fff;
+    background-color: rgba(252, 74, 26, 0.7);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: .5s ease;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+</style>
+<!--sayfa genel style-->
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><a href="index.html"><img src="imgs/logo.png" /></a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                        
+                    </li>
+                    <li>
+                        <a href="#">Öneriler</a>
+                        <ul>
+                            <a href="oku.html">
+                                <li>Oku</li>
+                            </a>
+                            <a href="izle.html">
+                                <li>İzle</li>
+                            </a>
+                            <a href="dinle.html">
+                                <li>Dinle</li>
+                            </a>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="hedef.html">Hedefler</a>
+                        
+                    </li>
+                    <li>
+                        <a href="hakkimda.html">Hakkımda</a>
+                    </li>
+                    <li>
+                        <a href="iletisim.html">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section id="dinle1" class="sectionArea">
+        <div class="dinleTop">
+            <h1>Dinle</h1>
+            <p>Sizin için seçtiğimiz çeşitli dinletiler.</p>
+    </section>
+    <!--Başlik alanı-->
+ 
+    <!--içerik-->
+    <section  id="icerik" class="sectionArea">
+        <div class="icerikBody">
+            <div class="containerFluid">
+                <div class="col3">
+                    <div class="icerikM">
+                        <img src="imgs/TED.jpg" class="icerikMImg"/>
+                        <div class="icerikMtn">
+                    
+                            <a href="https://www.ted.com/talks?language=tr"><img src="imgs/headphones.png" class="icon" title="Dinle"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="icerikM">
+                        <img src="imgs/521.jpg" class="icerikMImg"/>
+                        <div class="icerikMtn">
+                        
+                            <a href="https://radyo521.com/"><img src="imgs/headphones.png" class="icon" title="Dinle"/></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="icerikM">
+                        <img src="imgs/ingilizce.jpg" class="icerikMImg"/>
+                       <div class="icerikMtn">
+                     
+                            <a href="https://up.audio/podcasts/itunes1351987805"><img src="imgs/headphones.png" class="icon" title="Dinle"/></a>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="containerFluid">
+                <div class="col3">
+                    <div class="icerikM">
+                        <img src="imgs/teknoloji.jpg" class="icerikMImg"/>
+                        <div class="icerikMtn">
+                       
+                            <a href="https://up.audio/podcasts/itunes1189843214"><img src="imgs/headphones.png" class="icon" title="Dinle"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="icerikM">
+                        <img src="imgs/satırArasi.jpg" class="icerikMImg"/>
+                        <div class="icerikMtn">
+                            
+                            <a href="https://up.audio/podcasts/itunes1339098556"><img src="imgs/headphones.png" class="icon" title="Dinle"/></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="icerikM">
+                        <img src="imgs/hyt.jpg" class="icerikMImg"/>
+                       <div class="icerikMtn">
+                            <a href="https://up.audio/podcasts/itunes1326736089"><img src="imgs/headphones.png" class="icon" title="Dinle"/></a>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="sectionArea">
+        <div class="container">
+                <div class="col3">
+                    <div class="footerItem">
+                        <h3>Hatice Betül Aydemir</h3>
+                        <p>Bilişim Sistemleri Mühendisliği 3.sınıf</p>
+                        <p>hbetulaydemir@gmail.com</p>
+                        <p>0545 849 ** ** </p>
+                        <p> Başiskele/ Kocaeli</p>
+                    </div>
+                    </div>
+            <div class="col3">
+                <div class="footerItem">
+                    <ul class="footerLinks">
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="hedef.html">Hedefler</a></li>
+                        <li><a href="hakkimda.html">Hakkımızda</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                 
+                </div>
+            </div>
+            <div class="col3">
+                <div class="footerItem">
+                    <h3>Sosyal Medya</h3>
+                    <ul class="socialLinks">
+                        <li ><a href="https://www.linkedin.com/feed/"><img src="imgs/linkedln.png" title="Linkedln" /></a></li>
+                        <li ><a href="https://medium.com/"><img src="imgs/Mdm.png" title="Medium" /></a></li>
+                        <li ><a href="https://github.com/"><img src="imgs/github.png" title="Github"/></a></li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        <p>COPYRİGHT © 2019 Bu sitede yer alan her içerik bilgilendirme ve farkındalık kazandırma amaçlıdır.</p>
+
+    </footer>
+  
+    <script >
+     $(document).ready(function() {
+
+$(window).load(function() {
+
+    $('#loadOverlay').fadeOut('slow');
+
+})
+
+})
+</script>
+</body>
+<!--Yukarı çık butonu-->
+<style>
+
+    #yukariCik {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+        background: url('./imgs/ok.png')no-repeat;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        opacity: .7;
+        padding: 0px;
+        width: 40px;
+        height: 40px;
+    }
+</style>
+<button onclick="topFunction()" id="yukariCik"></button>
+<script>
+    window.onscroll = function () {
+        scrollFunction()
+    };
+    function scrollFunction() {
+        if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450)
+            document.getElementById("yukariCik").style.display = "block"
+        else
+            document.getElementById("yukariCik").style.display = "none"
+    }
+    function topFunction() {
+        if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+            document.body.scrollTop -= 40
+            document.documentElement.scrollTop -= 40
+            setTimeout(function () {
+                topFunction()
+            }, 0)
+        } else {
+            document.body.scrollTop = 0
+            document.documentElement.scrollTop = 0
+        }
+    }
+</script>
+  <!-- http://www.teknobeyin.com/tum-tarayicilar-ile-uyumlu-yukari-cik-butonu-yapimi.html siteden yardım alarak oluşturuldu.-->
+<!--Yukarı çık butonu-->
+
+
+</html>

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tarayıcının sayfayı bir miktar responsive olmasını sağlıyor.-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Kişisel Gelişim">
+    <meta name="author" content="Hatice Betül Aydemir">
+    <meta name="keywords" content="Kişisel, Gelişim, motivasyon, Yaşam">
+
+    <link rel="stylesheet" title="text/css" href="reset.css">
+    <!--Default olarak atanan özellikleri engellemek için-->
+    <link rel="stylesheet" title="text/css" href="main.css">
+    <title>Blog</title>
+</head>
+<!--sayfa genel tasarım-->
+<style type="text/css">
+    #deneme {
+        background-color: #f5f5f5;
+        margin: auto;
+        padding: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    .denemeTop {
+        text-align: center;
+    }
+
+    .denemeBody .col2 {
+        display: flex;
+        margin: auto;
+        padding: auto;
+        width: 50%;
+    }
+
+    #orta {
+        margin: auto;
+        padding: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .denemeImage {
+        width: 50%;
+    }
+
+    .denemeImage1 {
+        width: 25%;
+    }
+
+    .denemeImage img {
+        width: 100%;
+        height: auto;
+    }
+
+    .denemeImage1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .denemeText {
+        width: 60%;
+        padding-left: 10px;
+        margin: 5px;
+    }
+
+    .date {
+        color: #333;
+        font-size: 12px;
+        font-style: italic;
+    }
+
+    h4 {
+        color: #fc4a1a;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .denemeText a {
+        float: right;
+        text-decoration: none;
+        color: #fc4a1a;
+    }
+
+    .denemeText a:hover {
+        text-decoration: underline;
+    }
+
+    #denemeBir {
+        background: linear-gradient(rgba(0, 0, 0, .3),
+                rgba(0, 0, 0, .3)),
+            url('imgs/denemeArka.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+
+    #denemeBir p {
+        color: #fff;
+        font-size: 22.5px;
+    }
+
+    #denemeBir h1 {
+        color: #fff;
+
+    }
+</style>
+<!--sayfa genel tasarım-->
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><a href="index.html"><img src="imgs/logo.png" /></a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+
+                    </li>
+                    <li>
+                        <a href="#">Öneriler</a>
+                        <ul>
+                            <a href="oku.html">
+                                <li>Oku</li>
+                            </a>
+                            <a href="izle.html">
+                                <li>İzle</li>
+                            </a>
+                            <a href="dinle.html">
+                                <li>Dinle</li>
+                            </a>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="hedef.html">Hedefler</a>
+
+                    </li>
+                    <li>
+                        <a href="hakkimda.html">Hakkımda</a>
+                    </li>
+                    <li>
+                        <a href="iletisim.html">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--Günün Sözü-->
+    <section id="denemeBir" class="sectionArea">
+        <div class="denemeBirTop">
+            <h1>BLOG</h1>
+            <p>Kişisel gelişim hakkında çeşitli yazılar.</p>
+        </div>
+    </section>
+    <!--Başlik alanı-->
+    <section id="deneme" class="sectionArea">
+        <div class="denemeBody">
+            <div class="container">
+                <div class="col2">
+                    <div class="denemeImage">
+                        <img src="imgs/minidsgn.jpg" />
+                    </div>
+                    <div class="denemeText">
+                        <p class="date">Aralık 17, 2019</p>
+                        <h4>Minimal Yaşam</h4>
+                        <p>Yaşam tarzı olarak minimalist yaşam ihtiyaç
+                            duyulmayan şeylerden kurtulmak ve zihni boşaltma yöntemi olarak tanımlanabilir...</p>
+                        <a href="minimal.html ">Devamı için</a>
+                    </div>
+                </div>
+
+                <div class="col2">
+                    <div class="denemeImage">
+                        <img src="imgs/kisisel.jpg" />
+                    </div>
+                    <div class="denemeText">
+                        <p class="date">Aralık 18, 2019</p>
+                        <h4>Kişisel Gelişim</h4>
+                        <p>Daha iyi bir kişiliğe sahip olmayı kim istemez? Kendini geliştirmek ve daha iyi olmak,
+                            son zamanlarda oldukça popüler.</p>
+                        <a href="kisisel.html">Devamı için</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col2" id="orta">
+                    <div class="denemeImage1">
+                        <img src="imgs/yirmi190.png" />
+                    </div>
+                    <div class="denemeText">
+                        <p class="date">Aralık 15, 2019</p>
+                        <p>Hepimiz iş dünyasında, hobilerimizde veya kişisel yaşantımızda iyi alışkanlıklar edinmek
+                            isteriz.
+                            Alışkanlık edinmenin en popüler yöntemlerinden birisi 21/90 kuralı. Kural oldukça basit..
+                        </p>
+                        <a href="21Gn.html">Devamı için</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="container">
+                <div class="col2">
+                    <div class="denemeImage">
+                        <img src="imgs/pomodoro.jpg" />
+                    </div>
+                    <div class="denemeText">
+                        <p class="date">Aralık 18, 2019</p>
+                        <h4>Pomodoro</h4>
+                        <p>Pomodoro Tekniği, zamanı verimli kullanmak için geliştirilen bir zaman yönetimi tekniğidir.
+                            1980'lerin sonlarında Francesco Cirillo tarafından geliştirilmiştir. </p>
+                        <a href="pomodoro.html">Devamı için</a>
+                    </div>
+                </div>
+                <div class="col2">
+                    <div class="denemeImage">
+                        <img src="imgs/denemee.jpg" />
+                    </div>
+                    <div class="denemeText">
+                        <p class="date">Aralık 18, 2019</p>
+                        <h4> </h4>
+                        <p>Yeni bir araştırmaya göre bir müzik aleti çalmak ve başka bir dili öğrenmek, beyninizi daha
+                            verimli kılıyor.</p>
+                        <a href="beyin.html">Devamı için</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="sectionArea">
+        <div class="container">
+                <div class="col3">
+                    <div class="footerItem">
+                        <h3>Hatice Betül Aydemir</h3>
+                        <p>Bilişim Sistemleri Mühendisliği 3.sınıf</p>
+                        <p>hbetulaydemir@gmail.com</p>
+                        <p>0545 849 ** ** </p>
+                        <p> Başiskele/ Kocaeli</p>
+                    </div>
+                    </div>
+            <div class="col3">
+                <div class="footerItem">
+                    <ul class="footerLinks">
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="hedef.html">Hedefler</a></li>
+                        <li><a href="hakkimda.html">Hakkımızda</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                 
+                </div>
+            </div>
+            <div class="col3">
+                <div class="footerItem">
+                    <h3>Sosyal Medya</h3>
+                    <ul class="socialLinks">
+                        <li ><a href="https://www.linkedin.com/feed/"><img src="imgs/linkedln.png" title="Linkedln" /></a></li>
+                        <li ><a href="https://medium.com/"><img src="imgs/Mdm.png" title="Medium" /></a></li>
+                        <li ><a href="https://github.com/"><img src="imgs/github.png" title="Github"/></a></li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        <p>COPYRİGHT © 2019 Bu sitede yer alan her içerik bilgilendirme ve farkındalık kazandırma amaçlıdır.</p>
+
+    </footer>
+</body>
+<!--Yukarı çık butonu-->
+<style>
+    #yukariCik {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+        background: url('./imgs/ok.png')no-repeat;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        opacity: .7;
+        padding: 0px;
+        width: 40px;
+        height: 40px;
+    }
+</style>
+<button onclick="topFunction()" id="yukariCik"></button>
+<script>
+    window.onscroll = function () {
+        scrollFunction()
+    };
+    function scrollFunction() {
+        if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450)
+            document.getElementById("yukariCik").style.display = "block"
+        else
+            document.getElementById("yukariCik").style.display = "none"
+    }
+    function topFunction() {
+        if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+            document.body.scrollTop -= 40
+            document.documentElement.scrollTop -= 40
+            setTimeout(function () {
+                topFunction()
+            }, 0)
+        } else {
+            document.body.scrollTop = 0
+            document.documentElement.scrollTop = 0
+        }
+    }
+</script>
+<!-- http://www.teknobeyin.com/tum-tarayicilar-ile-uyumlu-yukari-cik-butonu-yapimi.html siteden yardım alarak oluşturuldu.-->
+<!--Yukarı çık butonu-->
+
+
+</html>
